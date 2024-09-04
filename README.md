@@ -1,6 +1,6 @@
 # React + Vite
 
-# Luseni-Mary-Capstone-Frontend 
+# Luseni-Mary-Capstone-Frontend
 Madam Yoko provides a user-friendly platform designed to:
 
 Access Educational Resources: Find and utilize a variety of educational materials tailored to the needs and interests of women in the region.
