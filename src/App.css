@@ -1,71 +1,61 @@
-/* App.css */
-
 /* General Styles */
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 2rem;
-  background-color: hsl(115, 45%, 77%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(115, 45%, 77%);
 }
 
 .nav {
-  display: flex;
-  font-size: xx-large;
-  justify-content: space-around;
-  align-items: center;
-  background: #092931;
-  color: white;
-  padding: 15px ;
+    display: flex;
+    font-size: xx-large;
+    justify-content: space-around;
+    align-items: center;
+    background: #092931;
+    color: white;
+    padding: 30px;
 }
+nav {
+
+
+    width: 100px;
+} 
 
 .nav a {
-  text-decoration: none;
-  padding: 8px 10px;
-  color: #fff;
-  cursor: pointer;
+    text-decoration: none;
+    padding: 8px 10px;
+    color: #fff;
+    cursor: pointer;
 }
 
 .nav a:hover {
-  color: lightgray;
+    color: lightgray;
 }
 
-/* Page Containers */
-.page-container {
-  padding: 20px;
-  background-color: #f4f4f4;
-  max-width: 800px;
-  margin: auto;
-  border-radius: 5px;
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
+
+/* mentorship.css */
+
+.mentorship-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.page-title {
-  font-size: 2rem;
-  color: #2c3e50;
-  margin-bottom: 30px;
+.mentor-title {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 15px;
 }
 
-.page-description {
-  font-size: 1.2em;
-  color: #34495e;
-  line-height: 1.6;
-  margin: 0 auto;
-  max-width: 800px;
-}
-
-/* Responsive Design */
-@media (max-width: 1280px) {
-  .nav {
-    font-size: large;
-    flex-direction: column;
-  }
-
-  .page-title {
-    font-size: 2em;
-  }
-
-  .page-description {
-    font-size: 1em;
-  }
+.mentor-description {
+    font-size: 1.2em;
+    color: #34495e;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 600px;
 }
